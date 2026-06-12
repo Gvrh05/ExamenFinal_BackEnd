@@ -6,6 +6,6 @@
         public string ImpostorDetails { get; set; }
         public string ContactInfo { get; set; }
         public string Comments { get; set; }
-        public string CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; }
     }
 }

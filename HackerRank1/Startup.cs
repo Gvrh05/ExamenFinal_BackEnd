@@ -121,7 +121,7 @@ namespace LibraryService.WebAPI
             using (var scope = app.ApplicationServices.CreateScope())
             {
                 var db = scope.ServiceProvider.GetRequiredService<LibraryContext>();
-                db.Database.Migrate();
+                //db.Database.Migrate(); descomentar una vez que tenga la db de supa base
             }
 
             app.UseRouting();

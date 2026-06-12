@@ -1,7 +1,6 @@
 using HackerRank1.Entities;
 using HackerRank1.Services;
 using LibraryService.WebAPI.Data;
-using LibraryService.WebAPI.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption;
